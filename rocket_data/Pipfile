@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+python-dotenv = "*"
+psycopg2-binary = "*"
+celery = "*"
+rabbitmq = "*"
+django-filter = "*"
+django-celery-beat = "*"
+pillow = "*"
+qrcode = "*"
+djangorestframework-api-key = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
+python_full_version = "3.9.5"
